@@ -35,5 +35,3 @@ $object = new recursion;
 echo "<pre>";
 print_r($object->recurs($list));
 echo "</pre>";
-
-?>
