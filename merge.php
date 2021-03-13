@@ -32,4 +32,3 @@ echo "<pre>";
 print_r(merge_sort($list));
 echo "</pre>";
 
-?>

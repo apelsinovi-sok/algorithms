@@ -21,7 +21,7 @@ $list = [
 function recursion($list){
 	$new_list = array();
 	foreach ($list as $key => $value) {
-		global $new_list;
+		static $new_list;
 		if (is_array($value)) {
 			recursion($value);
 		}else{
@@ -38,7 +38,3 @@ function recursion($list){
 echo "<pre>";
 print_r(recursion($list));
 echo "</pre>";
-
-
-
-?>

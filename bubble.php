@@ -16,4 +16,3 @@ for ($i=0; $i < count($list)-1; $i++) {
 }
 
 var_dump($list);
-?> 
